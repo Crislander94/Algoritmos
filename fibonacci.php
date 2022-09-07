@@ -15,9 +15,8 @@
     }
 
 
-    $resultado = isFibonacci($_POST["dato1"]);
-
-    echo $resultado === true ? "Es un numero fibonacci" : "No es un numero fibonacci";
+    //gitejecuto la funcion y muestro un mensaje
+    echo isFibonacci($_POST["dato1"]) === true ? "Es un numero fibonacci" : "No es un numero fibonacci";
 
 ?>
 
