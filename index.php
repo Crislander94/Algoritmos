@@ -14,13 +14,13 @@
     </form>
 
     <h3>Algoritmo Fibonacci</h3>
-    <form action="algoritmo2.php" method="post">
+    <form action="fibonacci.php" method="post">
         <input type="text" name="dato1" onkeypress="ValidaSoloNumeros()" placeholder="ingresa un numero">
         <input type="submit" value="Probar">
     </form>
 
-    <h3>Algoritmo Arbol Genealogico</h3>
-    <form action="algoritmo3.php" method="post">
+    <h3>Algoritmo Invertir Bits</h3>
+    <form action="invertir_bits.php" method="post">
         <input type="text" name="dato1" onkeypress="ValidaSoloNumeros()" placeholder="ingresa un numero">
         <input type="submit" value="Probar">
     </form>
